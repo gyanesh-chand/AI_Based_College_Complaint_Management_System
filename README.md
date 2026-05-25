@@ -80,6 +80,20 @@ npm run dev
 
 The frontend will be running at `http://localhost:3000` or 5173 depending on configuration.
 
+## 🔑 Environment Variables
+To run this project, you will need to add the following environment variables.
+```env
+# MongoDB Configuration
+MONGO_URL=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/campusvoice?retryWrites=true&w=majority
+DB_NAME=campusvoice
+
+# JWT Authentication
+JWT_SECRET=your_super_secret_key
+
+# Email Configuration
+EMAIL=your_email@gmail.com
+PASSWORD=your_app_password
+```
 ## 📁 Project Structure (CampusDesk)
 
 ```
@@ -117,21 +131,6 @@ AI_Based_College_Complaint_Management_System/
 │           └── webpack-health-plugin.js
 ├── .gitignore                      # Git ignored files/folders
 └── README.md                       # Main Project documentation        
-```
-
-## 🔑 Environment Variables
-To run this project, you will need to add the following environment variables.
-```env
-# MongoDB Configuration
-MONGO_URL=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/campusvoice?retryWrites=true&w=majority
-DB_NAME=campusvoice
-
-# JWT Authentication
-JWT_SECRET=your_super_secret_key
-
-# Email Configuration
-EMAIL=your_email@gmail.com
-PASSWORD=your_app_password
 ```
 
 ## 🔮 Future Roadmap
