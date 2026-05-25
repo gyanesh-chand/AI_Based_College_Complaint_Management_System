@@ -95,6 +95,13 @@ JWT_SECRET=your_super_secret_key
 EMAIL=your_email@gmail.com
 PASSWORD=your_app_password
 ```
+### `frontend/.env`
+```env
+REACT_APP_BACKEND_URL=http://localhost:8000
+ENABLE_HEALTH_CHECK=false	
+```
+
+
 ## 📁 Project Structure (CampusDesk)
 
 ```
