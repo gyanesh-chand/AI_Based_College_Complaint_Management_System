@@ -1,8 +1,8 @@
- # 🎓 CampusDesk Complaint Suite
+ # 🎓 CampusDesk
 
 > **Empowering Campus Safety and Efficiency through AI-Driven Priority Management.**
 
-CampusDesk Complaint Suite is a comprehensive, full-stack management system designed for educational institutions. It streamlines the entire lifecycle of student grievances—from submission and AI-powered categorization to staff resolution—ensuring that critical safety and security issues are addressed with the highest urgency.
+CampusDesk is a comprehensive, full-stack management system designed for educational institutions. It streamlines the entire lifecycle of student grievances—from submission and AI-powered categorization to staff resolution—ensuring that critical safety and security issues are addressed with the highest urgency.
 
 ---
 
@@ -82,6 +82,7 @@ The frontend will be running at `http://localhost:3000` or 5173 depending on con
 
 ## 🔑 Environment Variables
 To run this project, you will need to add the following environment variables.
+### `backend/.env`
 ```env
 # MongoDB Configuration
 MONGO_URL=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/campusvoice?retryWrites=true&w=majority
